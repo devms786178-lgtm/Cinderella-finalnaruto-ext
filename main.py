@@ -1,5 +1,9 @@
 from config import Config
-from database.naruto import *
+try:
+    from database.naruto import *
+except Exception as e:
+    import logging
+    logging.getLogger(__name__).warning(f"database.naruto import failed (API unreachable?): {e}")
 from pyrogram import Client, idle
 import asyncio, logging
 import threading
