@@ -62,9 +62,9 @@ async def callback_handler(bot, callback_query):
     elif data == "pathsalafree":#3
         await a("You choose My Pathsala without Login", show_alert=True)
         await pathfree.path_free(bot, call_msg)
-    elif data == "awadhfree":#4
-        await a("You choose Awadh Ojha Sir Without Login ", show_alert=True)
-        await awadhfree.awadh_ojha_free(bot, call_msg)
+    #elif data == "awadhfree":#4
+        #await a("You choose Awadh Ojha Sir Without Login ", show_alert=True)
+        #await awadhfree.awadh_ojha_free(bot, call_msg)
     elif data == "pwfree":#5
         await a("⚠️ In Physics Wallah: I can't extract the PDF URL", show_alert=True)
         await pwfree.handle_pw_free_logic(bot, call_msg)
