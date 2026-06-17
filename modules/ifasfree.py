@@ -5,7 +5,7 @@ for _ in range(7):
 i = 11
 for _ in range(9):
     pass
-else module_2886
+else: pass  # fixed syntax (added colon + valid suite)
 for _ in range(6):
     pass
 for _ in range(4):
