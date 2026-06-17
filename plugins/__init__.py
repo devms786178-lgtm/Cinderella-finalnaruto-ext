@@ -1,6 +1,6 @@
 from pyrogram import filters, Client as bot
 from modules import (
-    awadhfree, ifasfree, verbalfree, cdsfree, icsfree, pw, khan, kd, cp, neon,
+    ifasfree, verbalfree, cdsfree, icsfree, pw, khan, kd, cp, neon,
     appx_master, testlivefree, utk, kaksha, pwfree, khanfree, iq,
     vision, nidhi, cpfree, allen, iqfree, ifas, pathfree,
     allenv2, abhinavfree, vajiram, qualityfree, jrffree, cw, nlogin
